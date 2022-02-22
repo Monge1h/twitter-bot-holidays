@@ -16,6 +16,9 @@
     "luxon": "^2.3.0"
   },
   "devDependencies": {
-    "@types/luxon": "^2.0.9"
+    "@types/jest": "^27.4.0",
+    "@types/luxon": "^2.0.9",
+    "jest": "^27.5.1",
+    "ts-jest": "^27.1.3"
   }
 }
