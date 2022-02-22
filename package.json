@@ -11,5 +11,11 @@
     "bot"
   ],
   "author": "Jorge Monge",
-  "license": "MIT"
+  "license": "MIT",
+  "dependencies": {
+    "luxon": "^2.3.0"
+  },
+  "devDependencies": {
+    "@types/luxon": "^2.0.9"
+  }
 }
