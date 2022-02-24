@@ -1,4 +1,4 @@
-import { daysDiff } from "./functions/date";
+import { daysDiff } from "../functions/date";
 
 describe('Testing dayDiff function',()=>{
 	test('should return 1 day of diff',()=>{
