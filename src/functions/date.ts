@@ -5,4 +5,15 @@ function daysDiff(nextDate: string, currentDate: string): number {
 	return Math.abs(Math.ceil(dateDiff))
 }
 
-export { daysDiff }
+function getNextDate(currentDate: DateTime, arrDates: DateTime[]): DateTime{
+	let nextDate = currentDate
+	for(let date of arrDates){
+		if(date >= currentDate){
+			nextDate = date
+			break;
+		}
+	}
+	return nextDate
+}
+
+export { daysDiff, getNextDate }
