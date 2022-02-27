@@ -5,7 +5,7 @@ function daysDiff(nextDate: string, currentDate: string): number {
 	return Math.abs(Math.ceil(dateDiff))
 }
 
-function getNextDate(currentDate: DateTime, arrDates: DateTime[]): String{
+function getNextDate(currentDate: DateTime, arrDates: DateTime[]): string{
 	let nextDate = ""
 	for(let date of arrDates){
 		if(date >= currentDate){
