@@ -1,0 +1,23 @@
+{
+	"2022-01-01":{
+		"name":"Año nuevo"
+	},
+	"2022-05-01":{
+		"name":"Día del trabajo"
+	},
+	"2022-05-10":{
+		"name":"Día de la madre"
+	},
+	"2022-06-17":{
+		"name":"Día del padre"
+	},
+	"2022-09-15":{
+		"name":"Día de la independencia"
+	},
+	"2022-11-02":{
+		"name":"Día de los difuntos"
+	},
+	"2022-12-25":{
+		"name":"Navidad"
+	}
+}
